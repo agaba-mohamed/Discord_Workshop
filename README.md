@@ -25,7 +25,15 @@ Installez la bibliothèque discord.js en exécutant la commande suivante :
 npm install discord.js
 ```
 
-## Étape 3 : Création du bot
+
+## Étape 3 : Configuration sur Discord Developer Portal
+
+1. Rendez-vous sur [Discord Developer Portal](https://discord.com/developers/applications) et connectez-vous à votre compte Discord.
+2. Cliquez sur le bouton "New Application" pour créer une nouvelle application.
+3. Donnez un nom à votre application, puis naviguez vers l'onglet "Bot" dans le menu latéral.
+4. Sous la section "TOKEN", cliquez sur "Copy" pour copier le token de votre bot. Vous en aurez besoin pour la configuration dans votre code.
+
+## Étape 4 : Création du bot
 
 1. Créez un fichier nommé `bot.js` dans votre répertoire.
 2. Ouvrez `bot.js` et ajoutez le code suivant pour importer la bibliothèque et créer un nouveau client :
@@ -35,7 +43,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 ```
 
-## Étape 4 : Événements du bot
+## Étape 5 : Événements du bot
 
 Ajoutez des événements pour gérer la connexion et les messages :
 
@@ -55,7 +63,7 @@ client.login('VOTRE_TOKEN_ICI');
 
 Remplacez `VOTRE_TOKEN_ICI` par le token de votre bot obtenu depuis Discord Developer Portal.
 
-## Étape 5 : Lancement du bot
+## Étape 6 : Lancement du bot
 
 Dans votre terminal, exécutez la commande suivante pour démarrer votre bot :
 
