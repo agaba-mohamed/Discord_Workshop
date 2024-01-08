@@ -52,16 +52,16 @@ client.once('ready', () => {
     console.log('Bot is online!');
 });
 
-client.on('message', message => {
-    if (message.content === '!ping') {
-        message.reply('Pong!');
+client.on('messageCreate', (message) => {
+    if (message.content === 'ping'){
+        message.reply('Pong!')
     }
 });
 
-client.login('VOTRE_TOKEN_ICI');
+client.login('VOTRE_TOKEN');
 ```
 
-Remplacez `VOTRE_TOKEN_ICI` par le token de votre bot obtenu depuis Discord Developer Portal.
+Remplacez `VOTRE_TOKEN` par le token de votre bot obtenu depuis Discord Developer Portal.
 
 ## Étape 6 : Lancement du bot
 
