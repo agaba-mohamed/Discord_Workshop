@@ -40,7 +40,11 @@ npm install discord.js
 
 ```javascript
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client = new Discord.Client({ intents: [
+    Discord.GatewayIntentBits.Guilds,
+    Discord.GatewayIntentBits.GuildMessages,
+    Discord.GatewayIntentBits.MessageContent
+]})
 ```
 
 ## Étape 5 : Événements du bot
