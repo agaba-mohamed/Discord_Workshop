@@ -77,12 +77,7 @@ node bot.js
 
 Votre bot devrait maintenant être en ligne et répondre au message `!ping`.
 
-## Conclusion
-
-Félicitations ! Vous avez créé votre premier bot Discord avec discord.js. Place aux Exercices : 
-
-
-## Exercice 1 : Système de points
+# Exercice 1 : Système de points
 
 # Objectif : Créer un système de points pour récompenser les utilisateurs actifs.
 
@@ -91,7 +86,7 @@ Félicitations ! Vous avez créé votre premier bot Discord avec discord.js. Pla
 vous pouvez ajouter une fonctionnalité où le bot attribue des points aux utilisateurs pour chaque message envoyé.
 Le bot peut afficher le score d'un utilisateur lorsqu'il utilise une commande spécifique, par exemple !score.
 
-## Exercice 2 : Système de niveaux
+# Exercice 2 : Système de niveaux
 
 # Objectif : Créer un système de niveaux pour les utilisateurs basé sur l'activité et les points accumulés.
 
@@ -100,3 +95,7 @@ Le bot peut afficher le score d'un utilisateur lorsqu'il utilise une commande sp
 vous pouvez ajouter une fonctionnalité où les utilisateurs gagnent des points en fonction de leur activité et de leur participation sur le serveur.
 Le bot devrait suivre les points accumulés par chaque utilisateur et les niveaux correspondants.
 vous pouvez ajouter une commande !level pour permettre aux utilisateurs de vérifier leur niveau actuel et leur progression.
+
+## Conclusion
+
+Félicitations ! Vous avez créé votre premier bot Discord avec discord.js. Place aux Exercices : 
