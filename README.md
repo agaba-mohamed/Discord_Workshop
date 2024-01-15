@@ -98,4 +98,4 @@ vous pouvez ajouter une commande !level pour permettre aux utilisateurs de véri
 
 ## Conclusion
 
-Félicitations ! Vous avez créé votre premier bot Discord avec discord.js. Place aux Exercices : 
+Félicitations ! Vous avez créé votre premier bot Discord avec discord.js.
